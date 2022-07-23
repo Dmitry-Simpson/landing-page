@@ -162,12 +162,39 @@ span {
 .signup-main-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 32px 15%;
+    padding: 40px 10%;
+    gap: 200px;
+
 }
 
+
+.signup-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 24px;
+}
+
+.signup-text {
+    margin: 0px;
+}
+
+.signup-button {
+    font-size: 16px;
+    padding: 8px 20px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 12px;
+    margin: auto;
+}
 
 .signup {
     padding: 8px 20px;
